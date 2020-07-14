@@ -19,7 +19,7 @@ function getCellElements (currentRowElement) {
     return currentRowElement.querySelectorAll(".cell")
 }
 
-replaceAllButton.addEventListener("click", function () {
+replaceButton.addEventListener("click", function () {
     let find = findInput.value
     let replace = replaceInput.value
     for (let i = 0; i < rowElements.length; i ++) {
